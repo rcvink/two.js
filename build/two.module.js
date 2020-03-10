@@ -24,7 +24,7 @@ SOFTWARE.
 
 */
 
-(this || self || window).Two = (function(previousTwo) {
+(self || window).Two = (function(previousTwo) {
 
   var root;
   if (typeof window !== 'undefined') {
@@ -3011,7 +3011,7 @@ SOFTWARE.
 
   return Two;
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -3079,7 +3079,7 @@ SOFTWARE.
 
   });
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -3886,7 +3886,7 @@ SOFTWARE.
 
   Vector.MakeObservable(Vector.prototype);
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -4195,7 +4195,7 @@ SOFTWARE.
 
   Two.Anchor.MakeObservable(Two.Anchor.prototype);
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -4797,7 +4797,7 @@ SOFTWARE.
 
   });
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -5779,7 +5779,7 @@ SOFTWARE.
 
   });
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -6679,7 +6679,7 @@ SOFTWARE.
     ctx.setTransform(1, 0, 0, 1, 0, 0);
   }
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -7940,7 +7940,7 @@ SOFTWARE.
 
   });
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -8284,7 +8284,7 @@ SOFTWARE.
 
   Shape.MakeObservable(Shape.prototype);
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -9766,7 +9766,7 @@ SOFTWARE.
 
   }
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -9807,7 +9807,7 @@ SOFTWARE.
 
   Path.MakeObservable(Line.prototype);
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -10023,7 +10023,7 @@ SOFTWARE.
 
   Rectangle.MakeObservable(Rectangle.prototype);
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -10240,7 +10240,7 @@ SOFTWARE.
 
   Ellipse.MakeObservable(Ellipse.prototype);
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -10439,7 +10439,7 @@ SOFTWARE.
 
   Circle.MakeObservable(Circle.prototype);
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -10664,7 +10664,7 @@ SOFTWARE.
 
   Polygon.MakeObservable(Polygon.prototype);
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -11033,7 +11033,7 @@ SOFTWARE.
 
   ArcSegment.MakeObservable(ArcSegment.prototype);
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -11273,7 +11273,7 @@ SOFTWARE.
 
   Star.MakeObservable(Star.prototype);
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -11611,7 +11611,7 @@ SOFTWARE.
 
   RoundedRectangle.MakeObservable(RoundedRectangle.prototype);
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -12233,7 +12233,7 @@ SOFTWARE.
     }
   }
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -12651,7 +12651,7 @@ SOFTWARE.
 
   Gradient.MakeObservable(Gradient.prototype);
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -12825,7 +12825,7 @@ SOFTWARE.
 
   LinearGradient.MakeObservable(LinearGradient.prototype);
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -13031,7 +13031,7 @@ SOFTWARE.
 
   RadialGradient.MakeObservable(RadialGradient.prototype);
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -13626,7 +13626,7 @@ SOFTWARE.
 
   Texture.MakeObservable(Texture.prototype);
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -14091,7 +14091,7 @@ SOFTWARE.
 
   Sprite.MakeObservable(Sprite.prototype);
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -14616,7 +14616,7 @@ SOFTWARE.
 
   ImageSequence.MakeObservable(ImageSequence.prototype);
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 (function(Two) {
 
@@ -15632,7 +15632,7 @@ SOFTWARE.
 
   }
 
-})((typeof global !== 'undefined' ? global : (this || self || window)).Two);
+})((typeof global !== 'undefined' ? global : (self || window)).Two);
 
 
-export default (this || window).Two;
+export default (window).Two;
